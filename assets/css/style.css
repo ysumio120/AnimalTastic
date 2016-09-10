@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+#entry {
+	color: black;
+}
+
+.gifs div {
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+#submit {
+	margin: 5px 0;
+}
+
+.functions {
+	margin-top: 15px;
+}
+
+.buttons button {
+	margin: 3px 3px;
+}
