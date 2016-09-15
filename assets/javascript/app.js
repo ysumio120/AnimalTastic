@@ -57,7 +57,7 @@ $(document).ready(function() {
 	/*
 	 * Request data from giphy API and retrieve response
 	 * Create button labeled with text given by user
-	 * Added the end of current list of buttons
+	 * Added to the end of current list of buttons
 	 */
 	$("#submit").on("click", function() {
 		var query = $("#entry").val();
@@ -156,7 +156,7 @@ $(document).ready(function() {
 	/* 
 	 * When clicked: 
 	 *	Will display the still image or animated version of a gif
-	 * 	depending on it current state
+	 * 	depending on its current state
 	 */
 	$(".gifs").on("click", "img", function() {
 		
